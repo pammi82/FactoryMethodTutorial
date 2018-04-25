@@ -1,0 +1,21 @@
+[info] Packaging C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\factorymethodtutorial_2.12-0.1.jar ...
+[debug] Input file mappings:
+[debug] 	Main$.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Main$.class
+[debug] 	Main$delayedInit$body.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Main$delayedInit$body.class
+[debug] 	Main.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Main.class
+[debug] 	ShapeFactory$.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\ShapeFactory$.class
+[debug] 	Circle.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Circle.class
+[debug] 	Rectangle.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Rectangle.class
+[debug] 	Shape.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Shape.class
+[debug] 	Square.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\Square.class
+[debug] 	ShapeFactory.class
+[debug] 	  C:\Users\Black Eagle\Desktop\FactoryMethodTutorial\target\scala-2.12\classes\ShapeFactory.class
+[info] Done packaging.
