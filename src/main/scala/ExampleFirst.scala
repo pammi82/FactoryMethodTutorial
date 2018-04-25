@@ -5,10 +5,7 @@ trait Shape{
 
 }
 
-
-
 class Rectangle extends Shape{
-
 
   override def draw: Unit = {
     println("Inside Rectangle :: Draw Method")
@@ -18,12 +15,9 @@ class Rectangle extends Shape{
     println()
   }
 
-
 }
 
 class Square extends Shape{
-
-  //Console.YELLOW
 
   override def draw: Unit= {
     println("Inside Square :: Draw Method")
@@ -35,8 +29,6 @@ class Square extends Shape{
 }
 
 
-
-
 class Triangle extends  Shape{
 
   override def draw: Unit = {
@@ -46,8 +38,6 @@ class Triangle extends  Shape{
       val pad : Int= (20-i)/2
       println("".padTo(pad," ").mkString("")+"*"*i)
       i = i+2
-
-
     }
     println()
   }
@@ -55,23 +45,37 @@ class Triangle extends  Shape{
 
 object ShapeFactory {
 
-  def getShape(arg: String): Shape = {
-
-    arg.toLowerCase match
+    def apply(arg:String): Shape ={
+      arg.toLowerCase match
       {
-      case "rectangle" => new Rectangle()
+        case "rectangle" => new Rectangle()
 
-      case "triangle" => new Triangle()
+        case "triangle" => new Triangle()
 
-      case "square" => new Square()
+        case "square" => new Square()
 
-      case _ => null
+        case _ => null
 
+      }
     }
 
 
-  }
 
+
+}
+
+
+object Main extends App {
+
+  val rectangle = ShapeFactory("Rectangle")  // Instantiate the object of class Rectangle
+
+  rectangle.draw // call to class Rectangle draw method
+
+  val triangle = ShapeFactory("triangle")  // Instantiate the object of class Triangle
+
+  triangle.draw // call to class triangle draw method
+
+  ShapeFactory("square").draw // Instantiate the object of class Square anc call to draw method of it
 
 
 }
